@@ -209,3 +209,7 @@ body {
     padding: 14px 30px;
     flex-shrink: 0;
 }
+
+.subscribe-premium {
+    cursor: pointer;
+}

@@ -3,9 +3,6 @@
     --font-dm-sans: "DM Sans", sans-serif; 
 
     /* COREES*/
-    --color-bg-principal: black;
-    --cinza-primario: #121212;
-    --cinza-secundario: #242424;
-    --cinza-terciario: #b3b3b3;
-    --branco: #fff;
+    --bg-icon:#131313;
+    --bg-arrow-color: rgba(0,0,0,7);
 }
