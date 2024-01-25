@@ -1,0 +1,11 @@
+:root {
+    /* FONTES*/
+    --font-dm-sans: "DM Sans", sans-serif; 
+
+    /* COREES*/
+    --color-bg-principal: black;
+    --cinza-primario: #121212;
+    --cinza-secundario: #242424;
+    --cinza-terciario: #b3b3b3;
+    --branco: #fff;
+}
