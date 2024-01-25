@@ -179,7 +179,37 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
-    text-align: center;
+    color: #fff;
     padding: 15px 40px;
     background: linear-gradient(to right, #ae2896, #509bf5);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #fff;
+    border-radius: 40px;
+    border: 0;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 30px;
+    flex-shrink: 0;
 }
