@@ -43,6 +43,11 @@ body {
     font-size: 14px;
 }
 
+.sidebar nav ul a:hover{
+    transform: scale(1.0);
+    color: #fff;
+}
+
 .logo img {
     width: 80px;
 }
@@ -78,6 +83,11 @@ body {
     text-transform: 0;
     padding: 20px 10px;
     cursor: pointer;
+}
+
+.library .library__button:hover {
+    transform: scale(1.0);
+    color: #fff;
 }
 
 .library .library__button .fa {
@@ -142,6 +152,10 @@ body {
     cursor: pointer;
 }
 
+.section-playlist__content .section-playlist__button:hover {
+    transform: scale(1.04);
+}
+
 .sidebar .cookies {
     margin: 25px 20px;
 }
@@ -168,6 +182,12 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.languages .languages__button:hover {
+    transform: scale(1.04);
+    background: #fff;
+    color: #000;
 }
 
 .disclaimer-premium {
