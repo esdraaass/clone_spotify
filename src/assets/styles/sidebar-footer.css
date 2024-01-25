@@ -178,6 +178,7 @@ body {
     color: #fff;
     padding: 15px 40px;
     background: linear-gradient(to right, #ae2896, #509bf5);
+    
 
     display: flex;
     justify-content: space-between;
@@ -185,18 +186,20 @@ body {
 
 .disclaimer-premium .text {
     flex-shrink: 0;
+    
 }
 
 .disclaimer-premium .disclaimer-premium__title {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 10px;
     text-transform: uppercase;
+    font-family: var(--font-dm-sans);
 }
 
 .disclaimer-premium .disclaimer-premium__subtitle {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .disclaimer-premium button {
